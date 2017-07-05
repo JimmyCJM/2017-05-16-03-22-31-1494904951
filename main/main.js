@@ -72,12 +72,9 @@ module.exports = function main(input) {
   break;	  
   }
   }
-  var l1=line1[0];l1.push(line1[1]);l1.push(line1[2]);
-  var l2=line2[0];l2.push(line2[1]);l2.push(line2[2]);
-  var l3=line3[0];l3.push(line3[1]);l3.push(line3[2]);
-  l1.join(' ');
-  l2.join(' ');
-  l3.join(' ');
-  var line=(l1+'\n'+l2+'\n'+l3+'\n')
+  line1.join(' ');
+  line2.join(' ');
+  line3.join(' ');
+  var line=(line1+'\n'+line2+'\n'+line3+'\n')
   return line;
 };
