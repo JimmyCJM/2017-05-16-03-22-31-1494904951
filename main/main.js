@@ -75,8 +75,6 @@ module.exports = function main(input) {
   line1.join(' ');
   line2.join(' ');
   line3.join(' ');
-  line1.push('\n');
-  line2.push('\n');
-  line3.push('\n');
-  return line1+line2+line3;
+  var line=(line1+'\n'+line2+'\n'+line3+'\n')
+  return line;
 };
