@@ -72,9 +72,6 @@ module.exports = function main(input) {
   break;	  
   }
   }
-  line1.join(',');
-  line2.join(',');
-  line3.join(',');
   line1.join(' ');
   line2.join(' ');
   line3.join(' ');
