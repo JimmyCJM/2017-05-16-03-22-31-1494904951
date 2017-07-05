@@ -72,9 +72,9 @@ module.exports = function main(input) {
   break;	  
   }
   }
-  line1.join(' ');
-  line2.join(' ');
-  line3.join(' ');
-  var line=(line1+'\n'+line2+'\n'+line3+'\n')
+  var l1 = line1.join(' ');
+  var l2 = line2.join(' ');
+  var l3 = line3.join(' ');
+  var line=(l1+'\n'+l2+'\n'+l3+'\n')
   return line;
 };
